@@ -2,11 +2,11 @@
 #hostname
 server_hostname: domain.com 
 #user of the server
-user_name: nidal 
+user_name: nikitph 
 #Password for the server user, currently: enferno
 password: KJqBrYZ4Hvqdk
 #project root will be  /home/{{user_name}}/{{server_hostname}} by convention 
 
 enferno_port: 5000
 #put your enferno App git repository here
-git_repo: http://github.com/level09/enferno.git
+git_repo: https://github.com/nikitph/Ashrm.git
