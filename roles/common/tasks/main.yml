@@ -44,7 +44,3 @@
   tags:
     - celery
     
-- name: Create api service
-  template: src=api.conf dest=/etc/init/
-  tags:
-    - api
