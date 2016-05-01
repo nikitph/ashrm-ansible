@@ -11,7 +11,7 @@ cd /home/{{user_name}}/{{server_hostname}}
 test -d $LOGDIR || mkdir -p $LOGDIR
 source /home/{{user_name}}/{{server_hostname}}/env/bin/activate
 export ENFERNO_ENV='dev'
-exec gunicorn  --timeout=300 -b 127.0.0.1:{{enferno_port}} manage:app -w $NUM_WORKERS \
+exec gunicorn  --timeout=300 -b 127.0.0.1:{{enferno_port}} -k eventlet manage:app -w $NUM_WORKERS \
     --user=$USER --group=$GROUP --log-level=debug \
     --log-file=$LOGFILE 2>>$LOGFILE --worker-class=eventlet --worker-connections 1001
 
