@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 #improve this later
-LOGFILE=/home/{{user_name}}/log/enferno.log
+LOGFILE=/home/{{user_name}}/log/api.log
 LOGDIR=$(dirname $LOGFILE)
   # user/group to run as
 USER={{user_name}}
