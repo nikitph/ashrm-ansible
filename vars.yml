@@ -1,6 +1,6 @@
 ---
 #hostname
-server_hostname: domain.com 
+server_hostname: ashrm.in 
 #user of the server
 user_name: nikitph 
 #Password for the server user, currently: enferno
