@@ -7,6 +7,6 @@ user_name: nikitph
 password: KJqBrYZ4Hvqdk
 #project root will be  /home/{{user_name}}/{{server_hostname}} by convention 
 
-enferno_port: 5000
+enferno_port: 8000
 #put your enferno App git repository here
 git_repo: https://github.com/nikitph/Ashrm.git
